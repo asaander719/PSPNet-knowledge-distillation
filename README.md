@@ -7,4 +7,4 @@ Please note that you should train a teacher model( PSPNet model of ResNet50 back
 Innovation and Limitations: 
 This repo adds a feature distillation in the aux layer of PSPNet without a linear feature mapping, since the output dimension of teacher and student model after aux layer are the same. On the other hand, if you want to adapt this repo to other structures, a mapping should be needed. Also, the output of aux layer is very close to which of the final layer, so overfitting problem should be paid attention to. Or you can distillate the features in earlier layers and add a mapping of course.
 
- 
+For reimplementation, please download related datasets and symlink the relevant paths. The temperature parameter(T) and corresponding weights can be changed flexibly.
