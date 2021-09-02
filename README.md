@@ -23,10 +23,10 @@ git clone https://github.com/asaander719/PSPNet-knowledge-distillation.git
 4. Download official dataset PASCAL-VOC2012, please note that it is **Enhanced Version**,and put them in corresponding paths follwed by data lists.
 5. Train and test a teacher model: adjust parameters in config(voc2012_pspnet50.yaml), like layers. etc.., and the checkpoints will be saved automaticly, or you can just download a trained model, and put it in a right path.  
 ```
-python train.py
+python train_50.py
 ```
 ```
-python test.py
+python test_50.py
 ```
 6. Train and test a student model(optional, only for comparison): adjust parameters in config(voc2012_pspnet18.yaml), like layers. etc.., and the checkpoints will be saved automaticly, or you can just download a trained model, and put it in a right path.  
 ```
