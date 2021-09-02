@@ -24,18 +24,21 @@ git clone https://github.com/asaander719/PSPNet-knowledge-distillation.git
 5. Train and test a teacher model: adjust parameters in config(voc2012_pspnet50.yaml), like layers. etc.., and the checkpoints will be saved automaticly, or you can just download a trained model, and put it in a right path.  
 ```
 python train.py
-
+```
+```
 python test.py
 ```
 6. Train and test a student model(optional, only for comparison): adjust parameters in config(voc2012_pspnet18.yaml), like layers. etc.., and the checkpoints will be saved automaticly, or you can just download a trained model, and put it in a right path.  
 ```
 python train_18.py
-
+```
+```
 python test_18.py
 ```
 7. Distillation and Test: the results should between the teacher and the student model.
 ```
 python train_50_18.py
-
+```
+```
 python test_50_18.py
 ```
