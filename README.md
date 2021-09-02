@@ -39,7 +39,7 @@ python test_18.py
 
 Please note that you should adjust some parameters when you use fuctions in the file named model.
 ```
-python train_50_18.py
+python train_50_18_my.py
 ```
 ```
 python test_50_18.py
