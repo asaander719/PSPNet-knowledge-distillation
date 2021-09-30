@@ -48,7 +48,7 @@ python train_50_18_my.py
 ```
 python test_50_18.py
 ```
-## Reference
+## Citing
 
 @misc{semseg2019,
   author={Zhao, Hengshuang},
